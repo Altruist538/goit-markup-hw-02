@@ -1,0 +1,61 @@
+:root {
+	--firma-color: #4d5ae5;
+	--secondary-font: "Raleway", sans-serif;
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+.site-nav {
+	text-decoration: none;
+}
+body {
+	font-family: "Raleway", sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+.hero {
+	background-color: #2e2f42;
+}
+.logo {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--firma-color);
+}
+.logo-black {
+	color: black;
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+.hero-caption {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+
+	color: #ffffff;
+}
+.hero-btn {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	background: var(--firma-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
