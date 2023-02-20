@@ -58,6 +58,7 @@ body {
 	color: var(--firma-color);
 }
 .mail-nav {
+	font-style: normal;
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 16px;
@@ -83,7 +84,8 @@ body {
 	background-color: var(--hero-btn-color);
 }
 .hero-btn {
-	font-family: var(--secondary-font);
+	font-family: "Roboto";
+	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -170,7 +172,8 @@ body {
 	color: var(--white-color);
 }
 .hero-portfolio-btn {
-	font-family: var(--secondary-font);
+	font-family: "Roboto";
+	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
